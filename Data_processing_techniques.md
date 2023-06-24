@@ -17,5 +17,7 @@ The principle of seasonal decomposition is to separate a time series into its di
 ​		The residual component, also known as the irregular or noise component. It represents the 		unexplained or residual variation that cannot be attributed to the trend or seasonality.
 
 ````python
+import statsmodels.api as sm
+res_sept = sm.tsa.seasonal_decompose(aggregate_sept, model='multiplicative')
 ````
 
