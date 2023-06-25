@@ -1,6 +1,6 @@
 # Data processing techniques
 
-## 1. **Seasonal decomposition**
+## 1. **Seasonal decomposition**（STL）
 
 The principle of seasonal decomposition is to separate a time series into its different components, namely trend, seasonality, and residual (or irregular), in order to better understand and analyze the underlying patterns and variations.
 
